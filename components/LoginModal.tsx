@@ -10,8 +10,8 @@ import ContinueButton from "./Button/ContinueButton";
 const LoginModal = () => {
     return (
         <Modal isOpen={true} onClose={() => {}}>
-          <ModalOverlay />
-          <ModalContent margin="20vh 40vw">           
+          <ModalOverlay background="none" />
+          <ModalContent margin="20vh 40vw" borderRadius="50px" bgColor="#f7f7f6cc;" boxShadow="0px 4px 20px 0px #00000026">           
             <ModalHeader>
               <Stack direction="column" alignItems="center" spacing={0.5}>
                 <LogoRounded />
@@ -26,7 +26,7 @@ const LoginModal = () => {
                 <SignInButton />
                 <Box position='relative' padding='2.5'>
                   <Divider width="200px" color="#708265" opacity="1" />
-                  <AbsoluteCenter bg='white' px='4'>
+                  <AbsoluteCenter bg='#f7f7f6b2' px='4'>
                     <Text fontSize='md' color="#708265" fontWeight={300}>
                       Ou
                     </Text>
@@ -40,7 +40,7 @@ const LoginModal = () => {
             </ModalBody>
             <ModalFooter>
               <Stack width="100%" alignItems="center">
-                <Text fontSize='xs' color="#63636380" fontWeight={300}>
+                <Text fontSize='2xs' color="#63636380" fontWeight={300}>
                   Toca© 2023, Brasil
                 </Text>
               </Stack>

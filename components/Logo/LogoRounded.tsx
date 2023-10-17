@@ -8,6 +8,7 @@ const LogoRounded = () => {
             padding="5px"
             border="1px solid #95AA88"
             borderRadius="100%"
+            backgroundColor="#FFFFFF"
             objectFit='cover'
             src='/TocaLogo.svg'
             alt='Logo Toca'
