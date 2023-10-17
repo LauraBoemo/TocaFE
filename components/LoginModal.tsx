@@ -11,7 +11,7 @@ const LoginModal = () => {
     return (
         <Modal isOpen={true} onClose={() => {}}>
           <ModalOverlay />
-          <ModalContent maxH="65vh" maxW="35%">           
+          <ModalContent margin="20vh 40vw">           
             <ModalHeader>
               <Stack direction="column" alignItems="center" spacing={0.5}>
                 <LogoRounded />
